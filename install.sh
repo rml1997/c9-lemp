@@ -19,7 +19,7 @@ LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
 sudo apt-get update
 
 # Install PHP7.0 & Redis
-sudo apt-get install -qq php7.0-fpm php7.0-cli php7.0-common php7.0-json php7.0-opcache php7.0-mysql php7.0-phpdbg \
+sudo apt-get install -qq php7.0-fpm php7.0-cli php7.0-common php7.0-json php7.0-opcache php7.0-interbase php7.0-mysql php7.0-phpdbg \
 php7.0-mbstring php7.0-gd php7.0-imap php7.0-ldap php7.0-pgsql php7.0-pspell php7.0-recode php7.0-tidy php7.0-dev \
 php7.0-intl php7.0-gd php7.0-curl php7.0-zip php7.0-xml firebird2.5-classic
 sudo apt-get purge -qq apache2 mysql-server mysql-client
